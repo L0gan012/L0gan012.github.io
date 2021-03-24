@@ -1,3 +1,19 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
 body{
-    background: rgba(150,0,0,.05) url(https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/10124531/henri-l-547224-unsplash.jpg) no-repeat scroll center top;
+    background-color: rgba(168, 167, 167, 0.6);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
