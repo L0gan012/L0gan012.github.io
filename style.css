@@ -2,18 +2,53 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+nav{
+    text-align: right;
+}
+
 body{
     background-color: rgba(168, 167, 167, 0.6);
 }
 
 h1{
     text-align: center;
+    font-size: 8vw;
 }
 
 h2{
     text-align: center;
+    font-size: 4vw;
 }
 
 p{
     text-align: center;
+    font-size: 2vw;
+}
+
+img{
+    width: inherit;
+    height: inherit;
+}
+
+.project{
+    border-radius: 10px;
+    height: 16vw;
+    width: 16vw;
+}
+
+.project_pic{
+    width: inherit;
+    height: inherit;
+    border: inherit;
+    border-radius: inherit;
+    max-width: 100%;
+    display: inline;
+}
+
+.project_title{
+    height: auto;
+    width: inherit;
+    text-align: center;
+    font-size: 2vw;
+    display: contents;
 }
