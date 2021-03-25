@@ -1,48 +1,55 @@
 *{
     font-family: 'Roboto Mono', monospace;
-}
-
-nav{
-    text-align: right;
+    text-align: center;
 }
 
 body{
     background-color: rgba(168, 167, 167, 0.6);
 }
 
-h1{
-    text-align: center;
-    font-size: 8vw;
-}
-
-h2{
-    text-align: center;
-    font-size: 4vw;
-}
-
 p{
-    text-align: center;
-    font-size: 2vw;
+    margin: 2% 5% 5% 5%;
+    text-align: left;
 }
 
-img{
-    width: inherit;
-    height: inherit;
+.courses li{
+    text-align: left;
+}
+
+.subheader{
+    margin-left: 2%;
+    text-align: left;
 }
 
 .project{
-    border-radius: 10px;
     height: 16vw;
+    min-height: 50px;
+    max-height: 100px;
     width: 16vw;
+    min-width: 50px;
+    max-width: 100px;
+    border-radius: 30px;
+    margin: 5%;
+}
+
+.project a{
+    height: inherit;
+    min-height: inherit;
+    max-height: inherit;
+    width: inherit;
+    min-width: inherit;
+    max-width: inherit;
+    border-radius: inherit;
 }
 
 .project_pic{
-    width: inherit;
     height: inherit;
-    border: inherit;
+    min-height: inherit;
+    max-height: inherit;
+    width: inherit;
+    min-width: inherit;
+    max-width: inherit;
     border-radius: inherit;
-    max-width: 100%;
-    display: inline;
 }
 
 .project_title{
@@ -51,4 +58,29 @@ img{
     text-align: center;
     font-size: 2vw;
     display: contents;
+}
+
+#projects{
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2.5%;
+}
+
+#nav{
+    background-color: rgba(200,200,200,.5);
+    text-align: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#nav li{
+    font-size: 2vw;
+    display: inline;
+}
+
+#welcome p{
+    text-align: center;
 }

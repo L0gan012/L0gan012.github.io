@@ -19,28 +19,125 @@
         </header>
         <!--This is the navigation bar-->
         <nav>
-            <a href="#welcome" rel="internal">Home</a>|
-            <a href="#projects" rel="internal">Projects</a>
+            <ul id="nav">
+                <li><a href="#welcome" rel="internal">Home</a></li>
+                <li><a href="#project" rel="internal">Projects</a></li>
+                <li><a href="#about" rel="internal">About</a></li>
+                <li><a href="#career" rel="internal">Career</a></li>
+            </ul>
         </nav>
-        <!--This begins the welcome section-->
-        <div id="welcome">
-            <h1>Welcome!</h1>
-            <p>Here you can learn what Logan has been up to</p>
-        </div>
-        <!--This is the project section-->
-        <div id="projects">
-            <h2>Projects</h2>
-            <a id="project_green_thumb" class="project" href="https://l0gan012.github.io/project_green_thumb/">
-                <div class="project_pic">
-                    <img src="https://www.jing.fm/clipimg/detail/387-3878029_watering-plant-icon.png" alt="Project Green Thumb">
+        <!--This starts the main body of the web page-->
+        <main>
+            <!--This begins the welcome section-->
+            <section id="welcome">
+                <div>
+                    <h1>Welcome!</h1>
+                    <p>Here you can learn what Logan has been up to</p>
                 </div>
-                <div class="project_title">Project Green Thumb</div>
-            </a>
-            <a id="second_project" class="project" href="https://google.com/">
-                <img class="project_pic" src="https://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk.jpg" alt="Google">
-                <div class="project_title">Second Project</div>
-            </a>
-        </div>
+            </section>
+            <!--This is the project section-->
+            <section id="project">
+                <h2>Projects</h2>
+                <div id="projects">
+                    <div title="Project Green Thumb" id="project_green_thumb" class="project">
+                        <a href="https://l0gan012.github.io/project_green_thumb/">
+                            <img class="project_pic" src="https://www.jing.fm/clipimg/detail/387-3878029_watering-plant-icon.png" alt="Project Green Thumb">
+                        </a>
+                    </div>
+                    <div title="Rock, Paper, Scissors" id="rock_paper_scissors" class="project">
+                        <a href="https://google.com/">
+                            <img class="project_pic" src="https://miro.medium.com/max/612/1*G9UfaUBS_VqtFILMe37fZw.jpeg" alt="Rock Paper Scissors">
+                        </a>
+                    </div>
+                    <div id="third_project" class="project">
+                        <a href="https://google.com/">
+                            <img class="project_pic" src="https://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk.jpg" alt="Google">
+                        </a>
+                    </div>
+                    <div id="fouth_project" class="project">
+                        <a href="https://google.com/">
+                            <img class="project_pic" src="https://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk.jpg" alt="Google">
+                        </a>
+                    </div>
+                    <div id="fifth_project" class="project">
+                        <a href="https://google.com/">
+                            <img class="project_pic" src="https://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk.jpg" alt="Google">
+                        </a>
+                    </div>
+                    <div id="sixth_project" class="project">
+                        <a href="https://google.com/">
+                            <img class="project_pic" src="https://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk.jpg" alt="Google">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--This is the about section-->
+            <section id="about">
+                <h2>About</h2>
+                <p>
+                    Hi! Welcome to my page! Here you can find out what I've been up to in my free time, some of the projects I have worked on, biographical information, and career info!
+                </p>
+                <h3 class="subheader">Hobbies</h3>
+                <p>
+                    This is where my hobbies will go.
+                </p>
+                <h3 class="subheader">Early Life</h3>
+                <p>
+                    I was born and raised in Columbus, Ohio (about two blocks away from where I currently live!). I started my education at Hubbard Elementary School where my mother was the principal. In the second grade my mom accepted a principal role with Hilliard where we soon moved.
+                </p>
+                <h3 class="subheader">Highschool</h3>
+                <p>
+                    I grew up in Hilliard, Ohio, a large suburb just west of Columbus. From 2014 to 2018 I attended Hilliard Davidson Highschool. Here I was introduced to computer programming throughIn highschool I participated in lacrosee, where I received four varsity letters, football, and soccer.
+                </p>
+                <h3 class="subheader">College</h3>
+                <p>
+                    I am currently a third year majoring in Computer Science and Engineering, minoring in Business at The Ohio State University.
+                </p>
+                <h4 class="subheader">Courses</h4>
+                <h5 class="subheader">Math</h5>
+                <ul class="courses">
+                    <li>1172: Engineering Calculus (2/3)</li>
+                    <li>2568: Linear Algebra</li>
+                    <li>3345: Foundations of higher Mathematics</li>
+                    <li>3470: Statisics</li>
+                </ul>
+                <h5 class="subheader">Sciene and Engineering</h5>
+                <ul class="courses">
+                    <li>1250: Mechanics, Work and Energy, Thermal Physics</li>
+                    <li>1181: Fundamentals of Engineering</li>
+                    <li>2060: Introduction to digital logic</li>
+                    <li>2020: Intoduction to Analog Systems and Circuits</li>
+                </ul>
+                <h5 class="subheader">Computer Science</h5>
+                <ul class="courses">
+                    <li>1223: Introduction to Java</li>
+                    <li>2221: Software I (Software design practices)</li>
+                    <li>2231: Software II (Software design practices)</li>
+                    <li>2321: Foundations I (data structures and algorithms)</li>
+                    <li>2331: Foundations II (data structures and algoritms)</li>
+                    <li>2421: Systems I (c/assembly)</li>
+                    <li>2431: Systems II (operating systems)</li>
+                    <li>3541: Computer Game and Animation Techniques</li>
+                    <li>3341: Principles of Programming Languages</li>
+                    <li>3241: Introduction to Database Systems</li>
+                    <li>3461: Computer Networking and Internet Technologies</li>
+                    <li>3521: Survey of Artificial Intelligence I</li>
+                </ul>
+                <h5 class="subheader">Business</h5>
+                <ul class="courses">
+                    <li>2001.01: Principles of Microeconomics</li>
+                    <li>2000: Foundations of Accounting</li>
+                    <li>3100: Foundations of Management and Human Resources</li>
+                    <li>3150: Foundations of Marketing</li>
+                </ul>
+            </section>
+            <!--This is the career section-->
+            <section id="career">
+                <div>
+
+                </div>
+            </section>
+        </main>
         <!--This is the footer-->
         <footer>
 
