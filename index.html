@@ -8,29 +8,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
 
     <body>
         <!--This is the header-->
         <header>
-
+            <h1>Portfolio</h1>
         </header>
         <!--This is the navigation bar-->
         <nav>
-            <ul id="nav">
+            <ul class="nav">
                 <li><a href="#welcome" rel="internal">Home</a></li>
                 <li>
-                    <a href="#project" rel="internal">Projects</a>
-                    <ul>
-                        <li><a href="#project_green_thumb" rel="internal">Project Green Thumb</a></li>
+                    <a href="#projects_section" rel="internal">Projects</a>
+                    <ul class="sub_nav">
+                        <li><a href="https://l0gan012.github.io/project_green_thumb/" rel="">Project Green Thumb</a></li>
                         <li><a href="#rock_paper_scissors" rel="internal">Rock, Paper, Scissors</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#about" rel="internal">About</a>
-                    <ul>
+                    <ul class="sub_nav">
                         <li><a href="#hobbies" rel="internal">Hobbies</a></li>
                         <li><a href="#early_life" rel="internal">Early Life</a></li>
                         <li><a href="#highschool" rel="internal">Highschool</a></li>
@@ -43,16 +43,16 @@
         <!--This starts the main body of the web page-->
         <main>
             <!--This begins the welcome section-->
-            <section id="welcome">
+            <section id="welcome" class="welcome">
                 <div>
                     <h1>Welcome!</h1>
                     <p>Here you can learn what Logan has been up to</p>
                 </div>
             </section>
             <!--This is the project section-->
-            <section id="project">
+            <section id="projects_section" class="projects_section">
                 <h2>Projects</h2>
-                <div id="projects">
+                <div id="projects_container" class="projects_container">
                     <div title="Project Green Thumb" id="project_green_thumb" class="project">
                         <a href="https://l0gan012.github.io/project_green_thumb/">
                             <img class="project_pic" src="https://www.jing.fm/clipimg/detail/387-3878029_watering-plant-icon.png" alt="Project Green Thumb">
@@ -91,38 +91,38 @@
                 <p>
                     Hi! Welcome to my page! Here you can find out what I've been up to in my free time, some of the projects I have worked on, biographical information, and career info!
                 </p>
-                <h3 id="hobbies" class="subheader">Hobbies</h3>
+                <h3 id="hobbies" class="class_type">Hobbies</h3>
                 <p>
                     This is where my hobbies will go.
                 </p>
-                <h3 id="early_life" class="subheader">Early Life</h3>
+                <h3 id="early_life" class="class_type">Early Life</h3>
                 <p>
                     I was born and raised in Columbus, Ohio (about two blocks away from where I currently live!). I started my education at Hubbard Elementary School where my mother was the principal. In the second grade my mom accepted a principal role with Hilliard where we soon moved.
                 </p>
-                <h3 id="highschool" class="subheader">Highschool</h3>
+                <h3 id="highschool" class="class_type">Highschool</h3>
                 <p>
                     I grew up in Hilliard, Ohio, a large suburb just west of Columbus. From 2014 to 2018 I attended Hilliard Davidson Highschool. Here I was introduced to computer programming throughIn highschool I participated in lacrosee, where I received four varsity letters, football, and soccer.
                 </p>
-                <h3 id="college" class="subheader">College</h3>
+                <h3 id="college" class="class_type">College</h3>
                 <p>
                     I am currently a third year majoring in Computer Science and Engineering, minoring in Business at The Ohio State University.
                 </p>
-                <h4 class="subheader">Courses</h4>
-                <h5 class="subheader">Math</h5>
+                <h4 class="class_type">Courses</h4>
+                <h5 class="class_type">Math</h5>
                 <ul class="courses">
                     <li>1172: Engineering Calculus (2/3)</li>
                     <li>2568: Linear Algebra</li>
                     <li>3345: Foundations of higher Mathematics</li>
                     <li>3470: Statisics</li>
                 </ul>
-                <h5 class="subheader">Sciene and Engineering</h5>
+                <h5 class="class_type">Sciene and Engineering</h5>
                 <ul class="courses">
                     <li>1250: Mechanics, Work and Energy, Thermal Physics</li>
                     <li>1181: Fundamentals of Engineering</li>
                     <li>2060: Introduction to digital logic</li>
                     <li>2020: Intoduction to Analog Systems and Circuits</li>
                 </ul>
-                <h5 class="subheader">Computer Science</h5>
+                <h5 class="class_type">Computer Science</h5>
                 <ul class="courses">
                     <li>1223: Introduction to Java</li>
                     <li>2221: Software I (Software design practices)</li>
@@ -137,7 +137,7 @@
                     <li>3461: Computer Networking and Internet Technologies</li>
                     <li>3521: Survey of Artificial Intelligence I</li>
                 </ul>
-                <h5 class="subheader">Business</h5>
+                <h5 class="class_type">Business</h5>
                 <ul class="courses">
                     <li>2001.01: Principles of Microeconomics</li>
                     <li>2000: Foundations of Accounting</li>

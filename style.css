@@ -1,27 +1,74 @@
-*{
+* {
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-body{
-    background-color: rgba(168, 167, 167, 0.6);
+header {
+    background-color: hsla(120,50%,50%,1);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5%;
 }
 
-p{
+header h1 {
+    font-size: 4em;
+}
+
+body {
+    background-color: hsla(0,0%, 60%, 1);
+}
+
+p {
     margin: 2% 5% 5% 5%;
     text-align: left;
 }
 
-.courses li{
-    text-align: left;
+.nav {
+    background-color: hsla(0,0%,25%,1);
+    height: 5%;
+    width: 100%;
 }
 
-.subheader{
-    margin-left: 2%;
-    text-align: left;
+.nav li {
+    background-color: hsla(0,0%,75%,1);
+    height: inherit;
+    width: 10%;
+    float: left;
+    list-style-type: none;
 }
 
-.project{
+.sub_nav {
+    display: none;
+}
+
+.sub_nav li {
+    background-color: hsla(0, 0%, 60%, 1);
+}
+
+.welcome p {
+    text-align: center;
+}
+
+.projects_section {
+    background-color: hsla(0,0%,50%,1);
+    padding: 2.5%;
+}
+
+.projects_container {
+    background-color: hsla(160,50%,50%,.5);
+    height: fit-content;
+    width: 80%;
+    padding: 2.5%;
+    border-radius: 10%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project {
     height: 16vw;
     min-height: 50px;
     max-height: 100px;
@@ -32,7 +79,8 @@ p{
     margin: 5%;
 }
 
-.project a{
+.project a {
+    display: inherit;
     height: inherit;
     min-height: inherit;
     max-height: inherit;
@@ -42,7 +90,7 @@ p{
     border-radius: inherit;
 }
 
-.project_pic{
+.project_pic {
     height: inherit;
     min-height: inherit;
     max-height: inherit;
@@ -52,35 +100,19 @@ p{
     border-radius: inherit;
 }
 
-.project_title{
+.project_title {
     height: auto;
     width: inherit;
     text-align: center;
     font-size: 2vw;
-    display: contents;
 }
 
-#projects{
-    height: fit-content;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2.5%;
+.class_type {
+    margin-left: 2%;
+    text-align: left;
 }
 
-#nav{
-    background-color: rgba(200,200,200,.5);
-    text-align: right;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#nav li{
-    font-size: 2vw;
-    display: inline;
-}
-
-#welcome p{
-    text-align: center;
+.courses li {
+    margin-left: 5%;
+    text-align: left;
 }
