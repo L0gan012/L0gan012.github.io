@@ -22,10 +22,13 @@ p {
 
 /* Styling for the header */
 header {
+    min-height: 75px;
+    max-height: 125px;
+    height: 100px;
     background-color: hsla(0,0%,25%,1);
-    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Logo */
@@ -46,35 +49,34 @@ header {
 
 /* Navigation bar */
 nav {
+    height: 100%;
     width: 40%;
-    display: block;
 }
 
 .nav-links {
-    height: 100%;
+    height: inherit;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.nav-links li a {
+.nav-link {
     background-color: hsla(0,0%,75%,1);
     color: hsla(0,0%,25%,1);
     padding: 1vw 2vw;
-    margin: 1vw;
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
 }
 
-.nav-links li a:hover, .dropdown-menu:hover .dropdown-btn {
+.nav-link:hover, .dropdown-menu:hover .nav-link {
     background-color: hsla(0,0%,50%,1);
     color: hsla(0,0%,90%,1);
 }
 
 .dropdown-menu {
-    display: inline-block;
+    height: fit-content;
     position: relative;
 }
 
@@ -84,7 +86,6 @@ nav {
     border-radius: 20px;
     display: none;
     position: absolute;
-    top: 2vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
